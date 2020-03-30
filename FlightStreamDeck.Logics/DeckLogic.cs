@@ -34,6 +34,7 @@ namespace FlightStreamDeck.Logics
             client.RegisterAction("tech.flighttracker.streamdeck.generic.toggle", () => (GenericToggleAction)ActivatorUtilities.CreateInstance(serviceProvider, typeof(GenericToggleAction)));
             client.RegisterAction("tech.flighttracker.streamdeck.generic.gauge", () => (GenericGaugeAction)ActivatorUtilities.CreateInstance(serviceProvider, typeof(GenericGaugeAction)));
             client.RegisterAction("tech.flighttracker.streamdeck.artificial.horizon", () => (HorizonAction)ActivatorUtilities.CreateInstance(serviceProvider, typeof(HorizonAction)));
+            client.RegisterAction("tech.flighttracker.streamdeck.generic.plus-minus", () => (GenericValChangeAction)ActivatorUtilities.CreateInstance(serviceProvider, typeof(GenericValChangeAction)));
 
             client.RegisterAction("tech.flighttracker.streamdeck.master.activate", () => (ApToggleAction)ActivatorUtilities.CreateInstance(serviceProvider, typeof(ApToggleAction)));
             client.RegisterAction("tech.flighttracker.streamdeck.heading.activate", () => (ApToggleAction)ActivatorUtilities.CreateInstance(serviceProvider, typeof(ApToggleAction)));

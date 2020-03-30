@@ -43,6 +43,20 @@
         },
         {
             "Icon": "Images/toggleIcon",
+            "Name": "Generic In-/Decrease button",
+            "States": [
+                {
+                    "Image": "Images/button",
+                    "ShowTitle": false
+                }
+            ],
+            "SupportedInMultiActions": false,
+            "PropertyInspectorPath": "PropertyInspector/GenericPlusMinus.html",
+            "Tooltip": "Genric button to increase and decrease a selected set of values",
+            "UUID": "tech.flighttracker.streamdeck.generic.plus-minus"
+        },
+        {
+            "Icon": "Images/toggleIcon",
             "Name": "NAV & COM",
             "States": [
                 {

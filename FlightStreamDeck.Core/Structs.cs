@@ -1203,7 +1203,7 @@
         CAPTURE_SCREENSHOT,
         MOUSE_LOOK_TOGGLE,
         YAXIS_INVERT_TOGGLE,
-        AUTORUDDER_TOGGLE
+        AUTORUDDER_TOGGLE,
     }
 
     public enum SET_EVENT
